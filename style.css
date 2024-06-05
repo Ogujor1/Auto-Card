@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #19a1ad;
+  height: 100vh;
+  background: linear-gradient(to right,#19a1ad, #42cfd6);
+}
+.auto-card-box{
+text-align: center;
+position: relative;
+margin-left:35%;
+margin-top: 25vh;
+background-color: white;
+border: 3px solid #42cfd6;
+width: 30%;
+height: 60%;
+position: absolute;
+border-radius: 20px;
+
+}
+.overlay{
+  background-color:#42cfd6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:30%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image img{
+  border-radius: 50%;
+  border: solid 4px white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+}
+.name, .profile{
+  display: flex;
+  justify-content: center;
+  
+}
+.auto-card-box .name h1{
+  margin-top: 15rem;
+  font-size: 22px;
+}
+.profile{
+  justify-content: space-around;  
+  font-size: 13px;
+  padding: 10px;
+}
+.mike-name div{
+  display: inline-block;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 1rem;
+}
+.mike-name{
+  margin-bottom: 1.5rem;
+  padding-left:3rem ;
+}
+.name .country{
+  padding-right: 2rem;
+}
